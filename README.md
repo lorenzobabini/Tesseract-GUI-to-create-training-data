@@ -10,6 +10,20 @@ ATTENTION: despite the original project I forked, this new version does not cove
 
 `requirements.txt` contains the Python dependencies needed to run the script.
 
+Installing Tesserocr library could be problematic, because it requires Tesseracr and Leptonica.
+For macOS I suggest typing in the terminal theese commands:
+
+```
+/bin/bash -c "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/HEAD/install.sh)"
+
+```
+```
+brew install tesseract
+```
+
+For Windows I suggest the instructions of the [Pypi page of Tesserocr](https://pypi.org/project/tesserocr/), in particular the 'pip' option
+
+
 ## 1. Moving the Target Tesseract Model
 
 The Tesseract model file that needs to be retrained can be found in your `tessdata` folder where Tesseract is installed, and has the filename format `<lang>.traineddata`
