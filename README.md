@@ -2,44 +2,13 @@
 
 ## Summary
 
-Due to the laborious and manually intensive process involved in fine-tuning a Tesseract model, this pipeline script has been developed to provide a streamlined path from identifying incorrectly OCR'd words to retraining and deploying an updated Tesseract model capable of addressing the shortcomings of the previous model.
+Due to the laborious and manually intensive process involved in fine-tuning a Tesseract model, this GUI has been developed to easily and quickly create new traning data (Ground Truth) for Tesseract 5 by identifying OCR'd lines, manually correcting any errors, and automatically producing data to be used for training.
 
-The general retraining process goes:
-
-1. Move your existing Tesseract model into the proper subdirectory.
-2. Generate line-box file pairs, where each file pair represents one word that you want to correct in the Tesseract model. The line file contains the proper text in the subimage, while the box file contains the coordinates of each character in the line.
-3. Generate a unicharset file from the line-box files.
-4. Generate LSTMF files from the line-box files and divide the LSTMF files into training and evaluation sets.
-5. Retrain the Tesseract model with the LSTMF files.
-
-Steps 3-5 have been fully automated, with full credit going to Kamil Ciemniewski:
-
-https://web.archive.org/web/20210506222222/https://www.endpoint.com/blog/2018/07/09/training-tesseract-models-from-scratch
-
-Steps 1 and 2, however, are a partially manual process, though the script does make a best effort to automate as much of the manual work as possible.
-
-The following sections outline the requirements needed to run the pipeline, each step in the pipeline itself, how to best use the script to complete each step, and common issues encountered during the process.
+ATTENTION: despite the original project I forked, this new version does not cover the entire traninig process (which has to be completed in a Linux environmente following Tesstrain indications) but its sole purpose is to create couple of labeled data (.gt.text and .tif files) as as now prescribed by Tesstrain.
 
 ## Requirements
 
 `requirements.txt` contains the Python dependencies needed to run the script.
-
-This script requires Ghostscript, which can be retrieved from:
-
-https://www.ghostscript.com/download/gsdnld.html
-
-Note that, for Windows, only the 64-bit version is supported at this time.
-
-You will also need an installation of Ruby, which you can get from:
-
-https://www.ruby-lang.org/en/downloads/
-
-Once you have installed Ruby, run the following commands:
-
-`gem install unicode-scripts`  
-`gem install unicode-categories`
-
-This will install a couple necessary packages from Gem (Ruby's package manager) that are used to generate the unicharset file in Step 3.
 
 ## 1. Moving the Target Tesseract Model
 
