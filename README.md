@@ -3,7 +3,7 @@
 
 Due to the laborious and manually intensive process involved in fine-tuning a Tesseract model, this GUI has been developed to easily and quickly create new traning data (Ground Truth) for Tesseract 5 by identifying OCR'd lines, manually correcting any errors, and automatically producing data to be used for training.
 
-ATTENTION: despite the original project I forked, this new version does not cover the entire traninig process (which has to be completed in a Linux environmente following Tesstrain indications) but its sole purpose is to create couple of labeled data (.gt.text and .tif files) as as now prescribed by Tesstrain.
+ATTENTION: despite the original project I forked, this new version does not cover the entire traninig process (which has to be completed in a Linux environmente following ![Tesstrain](https://github.com/tesseract-ocr/tesstrain/) indications) but its sole purpose is to create couple of labeled data (.gt.text and .tif files).
 
 Another difference is that this code accepts image files as input and not pdf files.
 
