@@ -343,8 +343,8 @@ class TkVerifyWords(tk.Toplevel):
         self.next_button.config(state="normal" if self.current_line_index < len(self.line_data) - 1 else "disabled")
 
     def save_current_line_text(self):
-        if self.line_data:
-            self.line_data[self.current_line_index]['text'] = self.text_entry.get()
+    if self.line_data:
+        self.line_data[self.current_line_index]['text'] = self.text_entry.get()
 
     def show_previous_line(self):
         self.save_current_line_text()
@@ -402,7 +402,7 @@ def main(args, lang="eng"):
             tkgui_verify.wait_window()
 
             if GLOBAL_LINE_DATA:
-                save_gt_files(GLOBAL_LINE_DATA, base_filename)  # Removed page_num
+                save_gt_files(GLOBAL_LINE_DATA, base_filename)
                 print("Line-based ground truth files (.gt.txt and .tif) generated successfully.")
             else:
                 print("No line data available after verification for saving GT files.")
