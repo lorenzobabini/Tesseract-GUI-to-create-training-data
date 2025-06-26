@@ -1,4 +1,3 @@
-# Tesseract Retraining Pipeline
 
 ## Summary
 
@@ -26,7 +25,7 @@ brew install tesseract
 For Windows I suggest the instructions of the [Pypi page of Tesserocr](https://pypi.org/project/tesserocr/), in particular the 'pip' option
 
 
-## 1. Moving the Target Tesseract Model to be fine tuned
+## How to easily create Ground Truth data with this GUI
 
 The Tesseract model file that needs to be retrained or fine tuned can be found in your `tessdata` folder where Tesseract is installed, and has the filename format `<lang>.traineddata`
 
