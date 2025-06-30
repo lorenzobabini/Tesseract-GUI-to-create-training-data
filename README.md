@@ -61,3 +61,6 @@ You can correct the transcription of the line and move from one line to another 
 ### Ground Truth files
 
 All the training data will be saved in "my_gt_files" folder in couple of .gt.txt and .tif with the same name.
+
+![screen-gt](https://github.com/user-attachments/assets/13fa7efa-795f-4f92-a608-1c2fce6c4f99)
+
