@@ -1,5 +1,5 @@
 
-## Summary
+## A GUI to easily create a Ground Truth for Tesseract models
 
 Due to the laborious and manually intensive process involved in fine-tuning a Tesseract model, this GUI has been developed to easily and quickly create new traning data (Ground Truth) for Tesseract 5 by identifying OCR'd lines, manually correcting any errors, and automatically producing data to be used for training.
 
