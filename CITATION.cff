@@ -3,7 +3,7 @@ message: "If you use this software, please cite this version as below but don't 
 authors:
   - family-names: "Babini"
     given-names: "Lorenzo"
-title: "Tesseract GUI to create training-data"
+title: "Tesseract GUI to create training data"
 version: 1.1.0
 date-released: 2024-07-04
 url: "https://github.com/lorenzobabini/Tesseract-GUI-to-create-training-data"
