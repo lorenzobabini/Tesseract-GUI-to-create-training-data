@@ -9,7 +9,7 @@ version: 1.0.0
 date-released: 2019-06-06
 url: "https://github.com/dshea89/tesseract-retraining-pipeline"
 references:
-  - type: software
+  - type: "software"
     authors:
       - family-names: "Babini"
         given-names: "Lorenzo"
