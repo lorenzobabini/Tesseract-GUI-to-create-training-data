@@ -73,4 +73,8 @@ This codebase is released under the permissive MIT License. You may use, modify,
 
 ## Citation
 
-If you use this software in your work, please cite the original work by Daniel Shea and, if your modifications are relevant to your application, also this modified version. Full citation details are available in the `CITATION.cff` file in this repository; or click to "Cite this repository" button to copy the format you need.
+If you use this software in your work, please cite the original work by Daniel Shea:
+
+Shea, D. (2019). Tesseract Retraining Pipeline (Version 1.0.0) [Computer software]. https://github.com/dshea89/tesseract-retraining-pipeline 
+
+If my modifications are relevant to your application, also cite this modified version. Full citation details of my version are available in the `CITATION.cff` file in this repository; or click to "Cite this repository" button to copy the format you need.
