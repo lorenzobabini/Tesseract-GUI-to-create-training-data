@@ -68,4 +68,4 @@ All the training data will be saved in "my_gt_files" folder in couple of .gt.txt
 
 ## Citation
 
-If you use this software in your work, please cite the original work by Daniel Shea and, if your modifications are relevant to your application, also this modified version. Full citation details are available in the `CITATION.cff` file in this repository.
+If you use this software in your work, please cite the original work by Daniel Shea and, if your modifications are relevant to your application, also this modified version. Full citation details are available in the `CITATION.cff` file in this repository; or click to "Cite this repository" button to copy the format you need.
