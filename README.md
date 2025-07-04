@@ -69,7 +69,7 @@ All the training data will be saved in "my_gt_files" folder in couple of .gt.txt
 
 ## License
 
-This codebase is released under the permissive MIT License. You may use, modify, and distribute the software—including for commercial purposes, provided you retain the copyright and license notice in any copy of the source or substantial portions of it.
+This codebase is released under the permissive MIT License. You may use, modify, and distribute the software - including for commercial purposes, provided you retain the copyright and license notice in any copy of the source or substantial portions of it.
 
 ## Citation
 
