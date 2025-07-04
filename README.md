@@ -66,6 +66,11 @@ All the training data will be saved in "my_gt_files" folder in couple of .gt.txt
 
 ![screen-gt](https://github.com/user-attachments/assets/13fa7efa-795f-4f92-a608-1c2fce6c4f99)
 
+
+## License
+
+This codebase is released under the permissive MIT License. You may use, modify, and distribute the software—including for commercial purposes, provided you retain the copyright and license notice in any copy of the source or substantial portions of it.
+
 ## Citation
 
 If you use this software in your work, please cite the original work by Daniel Shea and, if your modifications are relevant to your application, also this modified version. Full citation details are available in the `CITATION.cff` file in this repository; or click to "Cite this repository" button to copy the format you need.
