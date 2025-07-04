@@ -17,4 +17,4 @@ references:
     version: "1.1.0"
     date-released: 2025-07-04
     url: "https://github.com/lorenzobabini/Tesseract-GUI-to-create-training-data"
-    abstract: "This release includes significant changes to adapt the training procedures to Tesseract 5"
+    abstract: 'This release includes significant changes to adapt the training procedures to Tesseract 5.'
