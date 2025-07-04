@@ -1,5 +1,5 @@
 cff-version: 1.2.0
-message: "If you use this software, please cite this version as below but don't forget that it is a modified forked version of [this project](https://github.com/dshea89/tesseract-retraining-pipeline)"
+message: "If you use this software, please cite this version as below but don't forget that it is a modified forked version of Daniel Shea's Tesseract Retraining Pipeline"
 authors:
   - family-names: "Babini"
     given-names: "Lorenzo"
