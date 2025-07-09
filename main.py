@@ -141,7 +141,7 @@ class TkDrawBorders(tk.Toplevel):
         self.line_data_for_gt = self.ocr_extraction(self.original_image)
         self.draw_bounding_boxes()
         
- def ocr_extraction(self, image_pil):
+    def ocr_extraction(self, image_pil):
         """
         Extracts line-level OCR data.
         """
@@ -343,8 +343,8 @@ class TkVerifyWords(tk.Toplevel):
         self.next_button.config(state="normal" if self.current_line_index < len(self.line_data) - 1 else "disabled")
 
     def save_current_line_text(self):
-    if self.line_data:
-        self.line_data[self.current_line_index]['text'] = self.text_entry.get()
+        if self.line_data:
+            self.line_data[self.current_line_index]['text'] = self.text_entry.get()
 
     def show_previous_line(self):
         self.save_current_line_text()
