@@ -64,7 +64,7 @@ def save_gt_files(line_data, base_filename, output_dir=GT_OUTPUT_DIR):
         try:
             line_image.save(tif_path, format="TIFF")
             with open(gt_txt_path, 'w', encoding='utf-8') as f:
-                f.write(line_text + '\n')  # Add newline at the end as required by Tesseract
+                f.write(line_text)
         except Exception as e:
             print(f"Error saving files for line {line_num}: {e}")
 
